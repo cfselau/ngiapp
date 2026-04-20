@@ -14,7 +14,7 @@ spec:
         app: ngiapp
     spec:
       containers:
-        - image: nginx:1.27.5-alpine-perl
+        - image: nginx:1.25-alpine
           name: ngiapp
           ports:
             - containerPort: 80
